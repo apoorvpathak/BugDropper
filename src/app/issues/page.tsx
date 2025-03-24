@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function IssuesPage() {
   return (
-    <div><Button><Link href={"/issues/new"}>New issue</Link></Button></div>
+    <div><Button><Link href={"/issues/new"}>New Issue</Link></Button></div>
   )
 }
 
