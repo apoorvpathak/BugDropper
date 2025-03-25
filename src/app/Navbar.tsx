@@ -14,7 +14,7 @@ function Navbar() {
     ]
   return (
     <nav className='flex space-x-12 border-b px-5 mb-5 h-14 items-center'>
-        <Link className='font-semibold text-xl flex items-center gap-2' href='/'> <FaBug /> Tracker</Link>
+        <Link className='font-semibold text-xl flex items-center gap-2' href='/'> <FaBug /> Dropper</Link>
         <ul className='flex space-x-8'>
             {paths.map(path => (
                 <Link 
