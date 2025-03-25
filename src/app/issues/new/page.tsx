@@ -1,9 +1,8 @@
 "use client"
 import React, { useState } from 'react'
-import { Button, Callout, Text, TextArea, TextField } from '@radix-ui/themes'
+import { Button, Callout, TextField } from '@radix-ui/themes'
 import { useForm, Controller } from 'react-hook-form';
 import dynamic from 'next/dynamic';
-// import SimpleMDE from "react-simplemde-editor"
 import "easymde/dist/easymde.min.css"
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
